@@ -1,7 +1,7 @@
-# <center>Avatar Renderer JS</center>  
-## <center>...Or ARJS for short.</center>   
+# Avatar Renderer JS
+## ...Or ARJS for short. 
 <center>For rendering ROBLOX avatars **WITHOUT** RCC service!</center>  
-
+<img width="400" height="400" alt="Screenshot from 2025-11-02 21-38-38" src="https://github.com/user-attachments/assets/a676a82e-e4a3-42d7-a9d5-49855f22e623" />  
 
 ## HOW TO SET UP
 
