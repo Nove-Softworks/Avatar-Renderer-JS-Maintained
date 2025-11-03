@@ -110,7 +110,9 @@ class AvatarRenderer {
         this.uDecal = gl.getUniformLocation(program, "uDecal");
         this.uUseDecal = gl.getUniformLocation(program, "uUseDecal");
 
-        const radius = 8, theta = Math.PI / 5, phi = Math.PI / 3.7;
+        const radius = 8, 
+        theta = Math.PI / 7, 
+        phi = Math.PI / 3;
         const camX = radius * Math.sin(phi) * Math.sin(theta);
         const camY = radius * Math.cos(phi);
         const camZ = radius * Math.sin(phi) * Math.cos(theta);
@@ -357,7 +359,7 @@ class AvatarRenderer {
         gl.clearColor(0, 0, 0, 0);
         gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
 
-        const Y_TRANS = -0.8;
+        const Y_TRANS = 0;
 
         this._drawCube([0, 1 + Y_TRANS, 0], this.torsoSize, this.avatar.torsoColor);
         if (this.avatar.torsoDecal) this._drawDecalPlane([0, 1 + Y_TRANS, this.torsoSize[2] / 2 + 0.01], [this.torsoSize[0], this.torsoSize[1], 1], this.avatar.torsoDecal, true);
