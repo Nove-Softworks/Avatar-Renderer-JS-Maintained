@@ -1,4 +1,6 @@
-<center>Note: This is the original documentation and has not been changed.</center>
+<h1 align="center">
+!! Note: this documentation has not been altered. There may be inaccurate information as the fork progresses. !!
+ </h1>
 
 # Avatar Renderer JS
 ## ...Or ARJS for short. 
