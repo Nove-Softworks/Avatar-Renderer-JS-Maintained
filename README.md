@@ -1,3 +1,5 @@
+<center>Note: This is the original documentation and has not been changed.</center>
+
 # Avatar Renderer JS
 ## ...Or ARJS for short. 
 <center>For rendering ROBLOX avatars **WITHOUT** RCC service!</center>  
